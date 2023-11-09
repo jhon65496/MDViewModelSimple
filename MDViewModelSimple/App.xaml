@@ -1,0 +1,14 @@
+﻿<!-- 
+-->
+    
+    
+<Application x:Class="MDViewModelSimple.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MDViewModelSimple"
+             xmlns:vm="clr-namespace:MDViewModelSimple.ViewModels"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <vm:MainWindowViewModel x:Key="mainVM"/>
+    </Application.Resources>
+</Application>
