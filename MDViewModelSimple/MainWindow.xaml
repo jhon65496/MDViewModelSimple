@@ -35,7 +35,7 @@
 
                     <!--  CoursesStudentsJoinVie -->
                     <GroupBox Grid.Column="1" Header="CoursesStudentsJoinView">
-                            <v:StudentsView/>
+                    <v:StudentsView DataContext="{Binding StudentsViewModel}"/>
                     </GroupBox>
             </Grid>
         </GroupBox>
